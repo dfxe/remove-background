@@ -1,0 +1,10 @@
+[project]
+name = "remove-background"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pillow>=12.3.0",
+    "rembg[cpu]>=2.0.85",
+]
